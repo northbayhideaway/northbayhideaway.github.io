@@ -1,0 +1,140 @@
+html {  
+  background: #ebe3d8;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+}
+
+#main{
+  max-width: 85vw;
+}
+
+body {
+  font-family: 'source-sans-pro', sans-serif;
+}
+
+#myTable{
+  background-image: url(img/wood-tile.jpg);  
+  margin: auto;
+  width:100%;
+  height:100%;
+}
+
+#tdlogo{
+  text-align: right;
+  width: 45vw;
+}
+
+#logo {
+  -webkit-filter: drop-shadow(1px 1px #222);
+  filter: drop-shadow(1px 1px #222);
+  height: 16vh;
+  
+}
+
+#subtitle{
+  font-family: 'Gabriola', sans-serif;
+  font-size: 1.3rem;
+  color: #e6c991;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  text-align: left;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  border: 1px solid #000;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #e6c991;
+  text-align: center;
+  padding-left: 16px;
+  text-decoration: none;
+  font-family: 'Gabriola', sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 94%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.multiline {
+  white-space: pre-wrap;
+}
+
+#photos-div{
+  text-align: center;
+  background-color: #333;
+}
+
+img.photo {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid #cbbda9;
+  max-width: 60vw;
+}
+
+div.center{
+  text-align: center;
+}
+
+img.round-corners {
+  border-radius: 20px;
+  border: 1px solid Black;
+  max-width: 85vw;
+}
+h1 {
+  font-family: 'Gabriola', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 2ch;
+  border-bottom: 1px solid #cbbda9;
+}
+
+p {
+  margin-top: 1%;
+}
+
+/*header {
+  font-weight: bold;
+  margin-top: 2ch;
+  text-align: center;
+}*/
+
+.alert {
+  background-color: #137dd4;
+  color: white;
+  padding: 5ch;
+}
+
+footer {
+  font-family: 'source-sans-pro', sans-serif;
+  font-size: 0.8rem;
+  margin-top: 3ch;
+  margin-bottom: 3ch;
+  border-top: 1px solid #cbbda9;
+  text-align: center;
+}
+
