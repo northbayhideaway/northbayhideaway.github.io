@@ -38,6 +38,7 @@ body {
   color: #e6c991;
   text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
   text-align: left;
+  line-height: 1;
 }
 
 /* Style the navbar */
