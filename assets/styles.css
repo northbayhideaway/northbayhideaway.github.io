@@ -79,6 +79,7 @@ body {
 
 .multiline {
   white-space: pre-wrap;
+  text-align: justify;
 }
 
 #photos-div{
